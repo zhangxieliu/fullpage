@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 999;
+    font-size: 15px;
+    background-color: rgb(50, 50, 50);
+    opacity: 0.5;
+    font-family: Consolas;
+    border: none;
+}
+
+#navbar a {
+    color: aquamarine;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#navbar a:hover {
+    color: white;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+#fullpage {
+
+}
+
+.section {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section1 {
+    background: url("../img/hero_sunset_large_2x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section1 h1 {
+    color: white;
+}
+
+.section1 p {
+    margin: 5% auto 0;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    opacity: 0;
+    margin-top: 1000px;
+}
+
+a {
+    display: block;
+    margin: 5% auto 0;
+    font-family: 微软雅黑;
+    color: grey;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.section2 {
+    background: #f2f2f2 url("../img/technology_hero_large_2x.jpg") no-repeat bottom;
+    background-size: 100%;
+}
+
+.section2 h1 {
+    margin: 20px auto;
+    font-size: 50px;
+}
+
+.section3 {
+    background: white url("../img/timekeeping_hero_large_2x.jpg") no-repeat center 300px;
+    background-size: 50%;
+}
+
+.section3 h1 {
+    margin: 20px auto 0;
+    margin-left: -1800px;
+}
+
+.section3 p {
+    margin: 5% auto 0;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    margin-right: -1800px;
+}
+
+.section4 {
+    background-color: white;
+}
+
+.section4 h1 {
+    margin: 20px auto;
+}
+
+.section4 h4 {
+    margin: 20px auto;
+}
+
+.section4 h4.primary {
+    background-image: url("../img/logo_collection_primary.svg");
+    background-size: 102px 22px;
+    height: 22px;
+    width: 102px;
+}
+
+.section4 h4.sport {
+    background-image: url("../img/logo_collection_sport.svg");
+    background-size: 102px 22px;
+    height: 22px;
+    width: 102px;
+}
+
+.section4 h4.edition {
+    background-image: url("../img/logo_collection_edition.svg");
+    background-size: 102px 22px;
+    height: 22px;
+    width: 102px;
+}
+
+.section4 .row {
+    margin: 20px;
+}
+
+.section4 p {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.section4 .col-md-4 {
+    background-color: rgb(242, 242, 242);
+}
+
+.section4 img {
+    width: 50%;
+}
